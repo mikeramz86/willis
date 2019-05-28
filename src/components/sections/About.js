@@ -9,9 +9,9 @@ const About = () => (
   <StaticQuery
     query={graphql`
       query {
-        art_fast: file(
+        art_Floor_Plan_Level_1: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "fast" }
+          name: { eq: "Floor_Plan_Level_1" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -20,9 +20,9 @@ const About = () => (
           }
         }
 
-        art_learn: file(
+        art_Floor_Plan_Level_2: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "learn_yourself" }
+          name: { eq: "Floor_Plan_Level_2" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -31,9 +31,9 @@ const About = () => (
           }
         }
 
-        art_ideas: file(
+        art_Floor_Plan_Level_3: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "ideas" }
+          name: { eq: "Floor_Plan_Level_3" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -48,7 +48,7 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Speed past the competition</h2>
+              <h2>Speed past the competition(Artist)</h2>
               <p>
                 Gatsby.js builds the fastest possible website. Instead of
                 waiting to generate pages when requested, pre-build pages and
@@ -57,15 +57,15 @@ const About = () => (
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_fast.childImageSharp.fluid} />
+              <Img fluid={data.art_Floor_Plan_Level_1.childImageSharp.fluid} />
             </Art>
           </Grid>
           <Grid inverse>
             <Art>
-              <Img fluid={data.art_learn.childImageSharp.fluid} />
+              <Img fluid={data.art_Floor_Plan_Level_2.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Nothing new to learn here</h2>
+              <h2>Nothing new to learn here(Entertainer)</h2>
               <p>
                 Enjoy the power of the latest web technologies – React.js ,
                 Webpack , modern JavaScript and CSS and more — all set up and
@@ -75,7 +75,7 @@ const About = () => (
           </Grid>
           <Grid>
             <div>
-              <h2>Grow and build your ideas</h2>
+              <h2>Grow and build your ideas(Dreamer)</h2>
               <p>
                 Waste no more time on tooling and performance. Focus on the the
                 site you want to build and nothing more.
@@ -85,7 +85,7 @@ const About = () => (
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_ideas.childImageSharp.fluid} />
+              <Img fluid={data.art_Floor_Plan_Level_3.childImageSharp.fluid} />
             </Art>
           </Grid>
         </Container>
