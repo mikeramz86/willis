@@ -29,9 +29,9 @@ const Footer = () => (
   <StaticQuery
     query={graphql`
       query {
-        art_pot: file(
+        art_HH_white: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "customers_pot" }
+          name: { eq: "HH_white" }
         ) {
           childImageSharp {
             fluid(maxWidth: 960) {
@@ -45,7 +45,7 @@ const Footer = () => (
       <React.Fragment>
         <Art>
           <Img
-            fluid={data.art_pot.childImageSharp.fluid}
+            fluid={data.art_HH_white.childImageSharp.fluid}
             style={{ width: 480, maxWidth: '100%', marginBottom: -16 }}
           />
         </Art>

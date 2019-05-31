@@ -44,11 +44,11 @@ const About = () => (
       }
     `}
     render={data => (
-      <Section id="about">
+      <Section id="floor-plans">
         <Container>
           <Grid>
             <div>
-              <h2>Speed past the competition(Artist)</h2>
+              <h2>The Artist.</h2>
               <p>
                 Gatsby.js builds the fastest possible website. Instead of
                 waiting to generate pages when requested, pre-build pages and
@@ -65,7 +65,7 @@ const About = () => (
               <Img fluid={data.art_Floor_Plan_Level_2.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Nothing new to learn here(Entertainer)</h2>
+              <h2>The Entertainer.</h2>
               <p>
                 Enjoy the power of the latest web technologies – React.js ,
                 Webpack , modern JavaScript and CSS and more — all set up and
@@ -75,7 +75,7 @@ const About = () => (
           </Grid>
           <Grid>
             <div>
-              <h2>Grow and build your ideas(Dreamer)</h2>
+              <h2>The Dreamer.</h2>
               <p>
                 Waste no more time on tooling and performance. Focus on the the
                 site you want to build and nothing more.
