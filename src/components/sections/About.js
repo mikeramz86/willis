@@ -50,10 +50,7 @@ const About = () => (
             <div>
               <h2>The Artist.</h2>
               <p>
-                Gatsby.js builds the fastest possible website. Instead of
-                waiting to generate pages when requested, pre-build pages and
-                lift them into a global cloud of servers — ready to be delivered
-                instantly to your users wherever they are.
+              This Kenton 1BD/1BA home is simple living at its finest! At 620SF it has everything.  It is packed with high end finishes every homeowner is looking for these days and it starts with Bosch appliances, quartz counters, high ceilings, and full tile backsplash.  It continues to the pavers in the private covered patio which give you benefits of outdoor living with no maintenance. A gas FP makes relaxing easy after an easy commute home with MAX and freeway very close.  Multiple plans to choose from ensures a tailored fit.
               </p>
             </div>
             <Art>
@@ -67,9 +64,7 @@ const About = () => (
             <div>
               <h2>The Entertainer.</h2>
               <p>
-                Enjoy the power of the latest web technologies – React.js ,
-                Webpack , modern JavaScript and CSS and more — all set up and
-                waiting for you to start building.
+              This N Willis 2BD/2BA condo with xxxSF living space and nearly the same size deck space with a great view of Mt. Hood.  Has fireplace, SS gas (BRAND) appliances. Flex floor plan great for multi-generation families, renting out for add’l income, or for home office.  A commuter’s dream: secure bike storage in building and 1 block from MAX stop, plus many local restaurants and conveniences just a short walk from your front door.
               </p>
             </div>
           </Grid>
@@ -77,11 +72,7 @@ const About = () => (
             <div>
               <h2>The Dreamer.</h2>
               <p>
-                Waste no more time on tooling and performance. Focus on the the
-                site you want to build and nothing more.
-                <br />
-                <br />
-                Gatsby is fast in every way that matters.
+              This N Willis, 2BD/2BA top floor condo is penthouse living at its finest.  Its xxxSF has tons of built-in storage, FtC windows, top-of-the-line SS gas (BRAND) appliances, a gas FP, a private deck for entertaining, and if that weren’t enough, a giant master & en-suite!  Plus it’s a commuter’s dream: secure bike storage in building and 1 block from MAX, plus many local restaurants and conveniences just a short walk from your front door.
               </p>
             </div>
             <Art>
