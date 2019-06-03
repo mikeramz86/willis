@@ -61,7 +61,7 @@ class Navbar extends Component {
         <StyledContainer>
           <Brand>The Willis</Brand>
           <Mobile>
-            <button onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
+            <button onClick={this.toggleMobileMenu} style={{ color: 'white' }}>
               <MenuIcon />
             </button>
           </Mobile>

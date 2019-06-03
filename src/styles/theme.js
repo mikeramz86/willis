@@ -21,7 +21,7 @@ const theme = {
       regular: '#211E26',
     },
     // primary: '#696969',
-    primary: '#FFFFFF',
+    primary: '#175570',
   },
   screen: {
     xs: '575px',
