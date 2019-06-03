@@ -42,9 +42,9 @@ const About = () => (
           }
         }
       
-        art_Floor_Plan_Level_3: file(
+        art_Floor_Plan_Level_4: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "Floor_Plan_Level_3" }
+          name: { eq: "Floor_Plan_Level_4" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -75,11 +75,22 @@ const About = () => (
               <Img fluid={data.art_Floor_Plan_Level_2.childImageSharp.fluid} />
             </Art>
             <div>
+              <h2>The Strategist.</h2>
+              <p>
+              This N Willis xBD/xBA condo is simple living at its finest!  This xxxSF ground level unit is the only one of its kind in the unit with tons of flex storage space, SS gas (BRAND) appliances, and private entry leading out to private covered patio, perfect for entertaining!  A commuter’s dream: secure bike storage next to unit and 1 block from MAX stop, plus many local restaurants and conveniences just a short walk from your front door.
+              </p>
+            </div>
+          </Grid>
+          <Grid>
+            <div>
               <h2>The Entertainer.</h2>
               <p>
                 This N Willis 2BD/2BA condo with xxxSF living space and nearly the same size deck space with a great view of Mt. Hood.  Has fireplace, SS gas (BRAND) appliances. Flex floor plan great for multi-generation families, renting out for add’l income, or for home office.  A commuter’s dream: secure bike storage in building and 1 block from MAX stop, plus many local restaurants and conveniences just a short walk from your front door.
               </p>
             </div>
+            <Art>
+              <Img fluid={data.art_Floor_Plan_Level_3.childImageSharp.fluid} />
+            </Art>
           </Grid>
           <Grid>
             <div>
@@ -89,7 +100,7 @@ const About = () => (
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_Floor_Plan_Level_3.childImageSharp.fluid} />
+              <Img fluid={data.art_Floor_Plan_Level_4.childImageSharp.fluid} />
             </Art>
           </Grid>
         </Container>

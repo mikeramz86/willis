@@ -72,19 +72,19 @@ const Footer = () => (
   />
 );
 
-const SocialIcons = styled.div`
-  display: flex;
+// const SocialIcons = styled.div`
+//   display: flex;
 
-  img {
-    margin: 0 8px;
-    width: 24px;
-    height: 24px;
-  }
+//   img {
+//     margin: 0 8px;
+//     width: 24px;
+//     height: 24px;
+//   }
 
-  @media (max-width: ${props => props.theme.screen.sm}) {
-    margin-top: 40px;
-  }
-`;
+//   @media (max-width: ${props => props.theme.screen.sm}) {
+//     margin-top: 40px;
+//   }
+// `;
 
 const FooterWrapper = styled.footer`
   background-color: ${props => props.theme.color.primary};
