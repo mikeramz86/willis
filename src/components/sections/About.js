@@ -115,6 +115,14 @@ const About = () => (
               <Img fluid={data.art_Floor_Plan_Level_3.childImageSharp.fluid} />
             </Art>
           </Grid>
+          <Grid>
+            <div>
+              <br></br>
+              <br></br>
+              <br></br>
+              <h2>More info coming soon!</h2>
+            </div>
+          </Grid>
         </Container>
       </Section>
     )}
