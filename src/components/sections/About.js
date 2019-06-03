@@ -62,45 +62,57 @@ const About = () => (
           <Grid>
             <div>
               <h2>The Artist.</h2>
+              <p>1 Bed | 1 Bath</p>
+              <br></br>
               <p>
-                This Kenton 1BD/1BA home is simple living at its finest! At 620SF it has everything.  It is packed with high end finishes every homeowner is looking for these days and it starts with Bosch appliances, quartz counters, high ceilings, and full tile backsplash.  It continues to the pavers in the private covered patio which give you benefits of outdoor living with no maintenance. A gas FP makes relaxing easy after an easy commute home with MAX and freeway very close.  Multiple plans to choose from ensures a tailored fit.
+              The Artist will inspire how well you can live in a smaller space - less can be more! 
+              The view allows for more of a detached home feel because it opens to a private, covered, paver patio and beautiful plants and trees. 
+              The benefits of a yard, but no maintenance of one. 
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_Floor_Plan_Level_1.childImageSharp.fluid} />
+              <Img fluid={data.art_Floor_Plan_Level_2.childImageSharp.fluid} />
             </Art>
           </Grid>
           <Grid inverse>
             <Art>
-              <Img fluid={data.art_Floor_Plan_Level_2.childImageSharp.fluid} />
+              <Img fluid={data.art_Floor_Plan_Level_1.childImageSharp.fluid} />
             </Art>
             <div>
               <h2>The Strategist.</h2>
+              <p>1 Bed | 1 Bath</p>
+              <br></br>
               <p>
-              This N Willis xBD/xBA condo is simple living at its finest!  This xxxSF ground level unit is the only one of its kind in the unit with tons of flex storage space, SS gas (BRAND) appliances, and private entry leading out to private covered patio, perfect for entertaining!  A commuter’s dream: secure bike storage next to unit and 1 block from MAX stop, plus many local restaurants and conveniences just a short walk from your front door.
+              The Strategist got it’s name because of all the different flex spaces that could be used in so many different ways. Just outside of the bathroom there is another flex space which if you didn’t work from home and went with my nook idea instead you could use this as an office area. If you don’t need an office it’s a great vanity area. If you are just someone who loves clothes a large wardrobe would be fitting as well. Shelves for your library? Linen Closet? The options are endless.
               </p>
             </div>
           </Grid>
           <Grid>
             <div>
               <h2>The Entertainer.</h2>
+              <p>2 Bed | 2 Bath</p>
+              <br></br>
               <p>
-                This N Willis 2BD/2BA condo with xxxSF living space and nearly the same size deck space with a great view of Mt. Hood.  Has fireplace, SS gas (BRAND) appliances. Flex floor plan great for multi-generation families, renting out for add’l income, or for home office.  A commuter’s dream: secure bike storage in building and 1 block from MAX stop, plus many local restaurants and conveniences just a short walk from your front door.
+              The Entertainer is really tailored to someone who wants to be in a walkable location without compromising the ability to host a party. 
+              The kitchen is the same size, but because of the shape of the great room; just envision moving the furniture to the walls and throwing a dance party.
+              If you are someone that insists you can’t have a roommate and/or you financially don’t “need” one, the front bedroom would make a killer office with the giant windows and view.
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_Floor_Plan_Level_3.childImageSharp.fluid} />
+              <Img fluid={data.art_Floor_Plan_Level_4.childImageSharp.fluid} />
             </Art>
           </Grid>
           <Grid>
             <div>
               <h2>The Dreamer.</h2>
+              <p>2 Bed | 2 Bath</p>
+              <br></br>
               <p>
-                This N Willis, 2BD/2BA top floor condo is penthouse living at its finest.  Its xxxSF has tons of built-in storage, FtC windows, top-of-the-line SS gas (BRAND) appliances, a gas FP, a private deck for entertaining, and if that weren’t enough, a giant master & en-suite!  Plus it’s a commuter’s dream: secure bike storage in building and 1 block from MAX, plus many local restaurants and conveniences just a short walk from your front door.
+              There is a lot to be said for the Dreamer; whether you are downsizing and preparing for a life of travel, you are needing more space but aren’t quite ready for suburbia yet, or are determined to be an urbanite for life. This is truly an oasis.
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_Floor_Plan_Level_4.childImageSharp.fluid} />
+              <Img fluid={data.art_Floor_Plan_Level_3.childImageSharp.fluid} />
             </Art>
           </Grid>
         </Container>
