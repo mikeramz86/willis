@@ -46,7 +46,7 @@ const Footer = () => (
         <Art>
           <Img
             fluid={data.art_HH_white.childImageSharp.fluid}
-            style={{ width: 480, maxWidth: '100%', marginBottom: -16 }}
+            style={{ width: 480, maxWidth: '100%', marginBottom:1 }}
           />
         </Art>
         <FooterWrapper>
