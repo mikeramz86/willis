@@ -9,9 +9,9 @@ const About = () => (
   <StaticQuery
     query={graphql`
       query {
-        art_fast: file(
+        art_Floor_Plan_Level_1: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "fast" }
+          name: { eq: "Floor_Plan_Level_1" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -20,9 +20,9 @@ const About = () => (
           }
         }
 
-        art_learn: file(
+        art_Floor_Plan_Level_2: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "learn_yourself" }
+          name: { eq: "Floor_Plan_Level_2" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -31,9 +31,9 @@ const About = () => (
           }
         }
 
-        art_ideas: file(
+        art_Floor_Plan_Level_3: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "ideas" }
+          name: { eq: "Floor_Plan_Level_3" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -41,51 +41,78 @@ const About = () => (
             }
           }
         }
+      
+        art_Floor_Plan_Level_4: file(
+          sourceInstanceName: { eq: "art" }
+          name: { eq: "Floor_Plan_Level_4" }
+        ) {
+          childImageSharp {
+            fluid(maxWidth: 760) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+
+        
       }
     `}
     render={data => (
-      <Section id="about">
+      <Section id="floor-plans">
         <Container>
           <Grid>
             <div>
-              <h2>Speed past the competition</h2>
+              <h2>The Artist.</h2>
+              <p>1 Bed | 1 Bath</p>
+              <br></br>
               <p>
-                Gatsby.js builds the fastest possible website. Instead of
-                waiting to generate pages when requested, pre-build pages and
-                lift them into a global cloud of servers — ready to be delivered
-                instantly to your users wherever they are.
+              The Artist will inspire how well you can live in a smaller space - less can be more! 
+              The view allows for more of a detached home feel because it opens to a private, covered, paver patio and beautiful plants and trees. 
+              The benefits of a yard, but no maintenance of one. 
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_fast.childImageSharp.fluid} />
+              <Img fluid={data.art_Floor_Plan_Level_2.childImageSharp.fluid} />
             </Art>
           </Grid>
           <Grid inverse>
             <Art>
-              <Img fluid={data.art_learn.childImageSharp.fluid} />
+              <Img fluid={data.art_Floor_Plan_Level_1.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Nothing new to learn here</h2>
+              <h2>The Strategist.</h2>
+              <p>1 Bed | 1 Bath</p>
+              <br></br>
               <p>
-                Enjoy the power of the latest web technologies – React.js ,
-                Webpack , modern JavaScript and CSS and more — all set up and
-                waiting for you to start building.
+              The Strategist got it’s name because of all the different flex spaces that could be used in so many different ways. Just outside of the bathroom there is another flex space which if you didn’t work from home and went with my nook idea instead you could use this as an office area. If you don’t need an office it’s a great vanity area. If you are just someone who loves clothes a large wardrobe would be fitting as well. Shelves for your library? Linen Closet? The options are endless.
               </p>
             </div>
           </Grid>
           <Grid>
             <div>
-              <h2>Grow and build your ideas</h2>
+              <h2>The Entertainer.</h2>
+              <p>2 Bed | 2 Bath</p>
+              <br></br>
               <p>
-                Waste no more time on tooling and performance. Focus on the the
-                site you want to build and nothing more.
-                <br />
-                <br />
-                Gatsby is fast in every way that matters.
+              The Entertainer is really tailored to someone who wants to be in a walkable location without compromising the ability to host a party. 
+              The kitchen is the same size, but because of the shape of the great room; just envision moving the furniture to the walls and throwing a dance party.
+              If you are someone that insists you can’t have a roommate and/or you financially don’t “need” one, the front bedroom would make a killer office with the giant windows and view.
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_ideas.childImageSharp.fluid} />
+              <Img fluid={data.art_Floor_Plan_Level_4.childImageSharp.fluid} />
+            </Art>
+          </Grid>
+          <Grid>
+            <div>
+              <h2>The Dreamer.</h2>
+              <p>2 Bed | 2 Bath</p>
+              <br></br>
+              <p>
+              There is a lot to be said for the Dreamer; whether you are downsizing and preparing for a life of travel, you are needing more space but aren’t quite ready for suburbia yet, or are determined to be an urbanite for life. This is truly an oasis.
+              </p>
+            </div>
+            <Art>
+              <Img fluid={data.art_Floor_Plan_Level_3.childImageSharp.fluid} />
             </Art>
           </Grid>
         </Container>
@@ -124,8 +151,8 @@ const Grid = styled.div`
     }
 
     ${props =>
-      props.inverse &&
-      `
+    props.inverse &&
+    `
         ${Art} {
           order: 2;
         }
