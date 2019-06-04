@@ -99,7 +99,10 @@ const About = () => (
               <Img fluid={data.art_Floor_Plan_Level_4.childImageSharp.fluid} />
             </Art>
           </Grid>
-          <Grid>
+          <Grid inverse>
+            <Art>
+              <Img fluid={data.art_Floor_Plan_Level_3.childImageSharp.fluid} />
+            </Art>
             <div>
               <h2>The Dreamer.</h2>
               <p>2 Bed | 2 Bath</p>
@@ -108,9 +111,6 @@ const About = () => (
               There is a lot to be said for the Dreamer; whether you are downsizing and preparing for a life of travel, you are needing more space but aren’t quite ready for suburbia yet, or are determined to be an urbanite for life. This is truly an oasis.
               </p>
             </div>
-            <Art>
-              <Img fluid={data.art_Floor_Plan_Level_3.childImageSharp.fluid} />
-            </Art>
           </Grid>
             <div>
               <br></br>
