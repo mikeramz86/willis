@@ -65,9 +65,9 @@ const About = () => (
               <p>1 Bed | 1 Bath</p>
               <br></br>
               <p>
-              The Artist will inspire how well you can live in a smaller space - less can be more! 
-              The view allows for more of a detached home feel because it opens to a private, covered, paver patio and beautiful plants and trees. 
-              The benefits of a yard, but no maintenance of one. 
+              Welcome to the Artist, a glimpse into the creativity of simple Portland living. 
+              The view opens to a private, covered paver patio and beautiful plants and trees, allowing for more of a detached home feel. Features like a beautiful gas fireplace, high ceilings, and tons of natural light give life to a home that feels open and full of potential. 
+              The Artist will inspire how well you can live in a smaller space - less can be more!
               </p>
             </div>
             <Art>
@@ -83,8 +83,7 @@ const About = () => (
               <p>1 Bed | 1 Bath</p>
               <br></br>
               <p>
-              The Strategist got it’s name because of all the different flex spaces that could be used in so many different ways. Just outside of the bathroom there is another flex space which if you didn’t work from home and went with my nook idea instead you could use this as an office area. If you don’t need an office it’s a great vanity area. If you are just someone who loves clothes a large wardrobe would be fitting as well. Shelves for your library? Linen Closet? The options are endless.
-              </p>
+              The Strategist shines as a one-of-a-kind layout that lends itself to someone looking for an adaptable home they can really make their own. While high end finishes provide a bright modern starting point, the additional flex spaces are ready to customize to your personal lifestyle. Whether you’re looking for a dining nook, a home office, vanity, or extra closet space - the Strategist provides the freedom to make your vision come to life.              </p>
             </div>
           </Grid>
           <Grid>
@@ -93,9 +92,7 @@ const About = () => (
               <p>2 Bed | 2 Bath</p>
               <br></br>
               <p>
-              The Entertainer is really tailored to someone who wants to be in a walkable location without compromising the ability to host a party. 
-              The kitchen is the same size, but because of the shape of the great room; just envision moving the furniture to the walls and throwing a dance party.
-              If you are someone that insists you can’t have a roommate and/or you financially don’t “need” one, the front bedroom would make a killer office with the giant windows and view.
+              The Entertainer is a true split bedroom floor plan, and a home buyer’s dream! Whether you have a potential roommate in mind or looking to work from your own home office (with a view), same size bedrooms and bathrooms located on opposite ends of the home provide a little natural separation. Meanwhile the heart of this home is wide open and ready to bring people together. The Entertainer is really tailored to someone who wants to be in a walkable location without compromising the ability to host a party.
               </p>
             </div>
             <Art>
