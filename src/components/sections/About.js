@@ -73,6 +73,8 @@ const About = () => (
             <Art>
               <Img fluid={data.art_Floor_Plan_Level_2.childImageSharp.fluid} />
             </Art>
+            <br></br>
+            <br></br>
           </Grid>
           <Grid inverse>
             <Art>
@@ -83,8 +85,11 @@ const About = () => (
               <p>1 Bed | 1 Bath</p>
               <br></br>
               <p>
-              The Strategist shines as a one-of-a-kind layout that lends itself to someone looking for an adaptable home they can really make their own. While high end finishes provide a bright modern starting point, the additional flex spaces are ready to customize to your personal lifestyle. Whether you’re looking for a dining nook, a home office, vanity, or extra closet space - the Strategist provides the freedom to make your vision come to life.              </p>
+              The Strategist shines as a one-of-a-kind layout that lends itself to someone looking for an adaptable home they can really make their own. 
+              While high end finishes provide a bright modern starting point, the additional flex spaces are ready to customize to your personal lifestyle. 
+              Whether you’re looking for a dining nook, a home office, vanity, or extra closet space - the Strategist provides the freedom to make your vision come to life.              </p>
             </div>
+            <br></br>
           </Grid>
           <Grid>
             <div>
@@ -98,6 +103,7 @@ const About = () => (
             <Art>
               <Img fluid={data.art_Floor_Plan_Level_4.childImageSharp.fluid} />
             </Art>
+            <br></br>
           </Grid>
           <Grid inverse>
             <Art>
@@ -108,9 +114,13 @@ const About = () => (
               <p>2 Bed | 2 Bath</p>
               <br></br>
               <p>
-              There is a lot to be said for the Dreamer; whether you are downsizing and preparing for a life of travel, you are needing more space but aren’t quite ready for suburbia yet, or are determined to be an urbanite for life. This is truly an oasis.
+              The Dreamer lends itself to a more traditional layout, with bedrooms on one side of the home and great room on the other, as well as a formal entryway between. 
+              The nearly floor to ceiling windows let in an abundance of sunlight and create an almost airy quality that really makes this home stand out. The master retreat, with walk in closet and en suit, adds to the home’s sense of comfort and tranquility. 
+              There is a lot to be said for the Dreamer; whether you are downsizing and preparing for a life of travel, you are needing more space but aren’t quite ready for suburbia yet, or are determined to be an urbanite for life. 
+              This is truly an oasis.
               </p>
             </div>
+            <br></br>
           </Grid>
             <div>
               <br></br>
